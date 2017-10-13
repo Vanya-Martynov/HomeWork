@@ -1,0 +1,50 @@
+
+@keyframes move {
+    0%{
+        transform: translateZ(0px);
+
+    }
+    100%{
+        transform: translateZ(40px);
+
+    }
+}
+@keyframes color {
+    0%{
+        background: mistyrose;
+    }
+    50%{
+        background: #ccc;
+    }
+    100%{
+        background: mistyrose;
+    }
+}
+@keyframes rotate{
+    0%{
+        background: yellow;
+        color: black;
+
+    }
+    20%{
+        background: black;
+        color:white;
+    }
+    40%{
+        background: green;
+        color:brown;
+    }
+    60%{
+        background: darkblue;
+        color:rosybrown;
+    }
+    80%{
+        background: #ccc;
+        color:#fff;
+    }
+    100%{
+        background: yellow;
+        color: black;
+    }
+
+}
